@@ -55,9 +55,9 @@ output kms_id {
 # CMS ID
 ##############################################################################
 
-#output cms_id {
-#  description = "CRN of CMS instance"
-#  value       = "${ibm_resource_instance.cms.id}"
-#}
+output cms_id {
+  description = "CRN of CMS instance"
+  value       = "${ibm_resource_instance.cms.id}"
+}
 
 ##############################################################################
