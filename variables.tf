@@ -53,10 +53,10 @@ variable end_points {
 # CMS Variables
 ##############################################################################
 
-variable cms_plan {
-  description = "service plan for certificate manager"
-  default     = "free"
-}
+#variable cms_plan {
+#  description = "service plan for certificate manager"
+#  default     = "free"
+#}
 
 ##############################################################################
 
