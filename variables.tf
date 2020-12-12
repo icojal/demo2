@@ -128,10 +128,10 @@ variable activity_tracker {
 }
 
 
-variable logging_plan {
-  description = "service plan for LogDNA, Activity Tracker."
-  default     = "7-day"
-}
+#variable logging_plan {
+#  description = "service plan for LogDNA, Activity Tracker."
+#  default     = "7-day"
+#}
 
 #variable monitor_plan {
 #  description = "service plan for Monitoring"
