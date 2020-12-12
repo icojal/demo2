@@ -7,10 +7,10 @@ output logdna_id {
   value       = "${ibm_resource_instance.logdna.id}"
 }
 
-output sysdig_id {
-  description = "GUID of Sysdig Instance"
-  value       = "${ibm_resource_instance.sysdig.id}"
-}
+#output sysdig_id {
+#  description = "GUID of Sysdig Instance"
+#  value       = "${ibm_resource_instance.sysdig.id}"
+#}
 
 ##############################################################################
 
