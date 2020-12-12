@@ -133,9 +133,9 @@ variable logging_plan {
   default     = "7-day"
 }
 
-variable monitor_plan {
-  description = "service plan for Monitoring"
-  default     = "graduated-tier"
-}
+#variable monitor_plan {
+#  description = "service plan for Monitoring"
+#  default     = "graduated-tier"
+#}
 
 ##############################################################################
