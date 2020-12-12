@@ -46,7 +46,7 @@ output psql_id {
 #output kms_id {
 #  description = "GUID of KMS Instance"
 #  value       = "${ibm_resource_instance.kms.guid}"
-}
+#}
 
 ##############################################################################
 
