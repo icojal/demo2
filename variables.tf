@@ -66,10 +66,10 @@ variable cms_plan {
 # Key Protect Variables
 ##############################################################################
 
-variable kms_plan {
-  description = "the plan to use for provisioning key protect instance"
-  default     = "tiered-pricing"  
-}
+#variable kms_plan {
+#  description = "the plan to use for provisioning key protect instance"
+#  default     = "tiered-pricing"  
+#}
 
 variable kms_root_key_name {
   description = "the plan to use for provisioning key protect instance"
